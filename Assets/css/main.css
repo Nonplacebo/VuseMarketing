@@ -1,3 +1,56 @@
-#landingPage {
+body{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  font-family: "myriad-pro-condensed", sans-serif;
+}
+#landingPage{
   height: 100vh;
+
+}
+#landingPage .logoHeader{
+
+}
+#landingPage .navbar{
+
+}
+#landingPage .navbar ul{
+
+}
+#landingPage .navbar ul li{
+
+}
+#slogan{
+
+}
+#downArrow{
+
+}
+#whoAreWe{
+
+}
+#box{
+
+}
+#box h1{
+
+}
+#box p{
+
+}
+#ourStaff{
+
+}
+#ourStaff h1{
+
+}
+#ourStaff .boxLayout{
+
+}
+#ourStaff .boxLayout .box{
+
+}
+#ourStaff .boxLayout .box h2{
+
 }
