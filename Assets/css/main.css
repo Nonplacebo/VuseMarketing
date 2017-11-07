@@ -120,6 +120,7 @@ body {
   #landing-page {
     width: 100%;
     overflow: hidden;
+    height: 100vh;
   }
 
   #landing-page video {
