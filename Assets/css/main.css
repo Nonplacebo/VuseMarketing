@@ -9,7 +9,7 @@ body {
 }
 
 #landing-page {
-
+  height: 100vh;
 }
 
 #landing-page video {
