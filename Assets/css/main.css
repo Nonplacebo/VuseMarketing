@@ -1,56 +1,228 @@
-body{
+body {
   margin: 0;
   padding: 0;
+  background-color: lightgrey;
 }
-h1{
-  font-family: "myriad-pro-condensed", sans-serif;
+
+#site-wrapper {
+  width: 100%;
+  overflow: hidden;
 }
-#landingPage{
-  height: 100vh;
+
+#landing-page {
 
 }
-#landingPage .logoHeader{
+
+#landing-page video {
+  position: relative;
+}
+
+
+/*Iphone screen*/
+@media only screen and (min-width : 320px) {
+}
+
+@media only screen and (max-width : 576px) {
+
+  #landing-page video {
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
+  }
 
 }
-#landingPage .navbar{
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 576px) {
 
 }
-#landingPage .navbar ul{
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
 
 }
-#landingPage .navbar ul li{
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+
+    #landing-page {
+
+    }
+
+    #landing-page video {
+      position: relative;
+      width: 100%;
+      height: auto;
+    }
+
+    .header {
+      display: block;
+      position: static;
+      color: white;
+    }
+
+    .header .logo-text {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      float: left;
+      top: 50px;
+      left: 50px;
+    }
+
+    .header .logo-text svg {
+      width: 320px !important;
+    }
+
+    .header .navbar {
+      float: right;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: auto;
+      height: 220px;
+      right: 50px;
+    }
+
+    .header .navbar .link {
+      display: inline;
+    }
+
+    .header .navbar .link a {
+      color: inherit;
+      text-decoration: none;
+      background-color: black;
+      padding: 25px 22px 24px 22px;
+    }
+
+    #first {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+
+    #last {
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    .header .navbar .link a:hover {
+      color: lightgrey;
+    }
 
 }
-#slogan{
 
-}
-#downArrow{
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
 
-}
-#whoAreWe{
 
-}
-#box{
+  #landing-page {
+    width: 100%;
+    overflow: hidden;
+  }
 
-}
-#box h1{
+  #landing-page video {
+    position: relative;
+    height: 100vh;
+  }
 
-}
-#box p{
+  .header {
+    display: block;
+    position: static;
+    color: white;
+  }
 
-}
-#ourStaff{
+  .header .logo-text {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: left;
+    top: 50px;
+    left: 70px;
+  }
 
-}
-#ourStaff h1{
+  .header .logo-text svg {
+    width: 350px !important;
+  }
 
-}
-#ourStaff .boxLayout{
+  .header .navbar {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 220px;
+    right: 50px;
+    z-index: 1;
+  }
 
-}
-#ourStaff .boxLayout .box{
+  .header .navbar .link {
+    display: inline;
+  }
 
-}
-#ourStaff .boxLayout .box h2{
+  .header .navbar .link a {
+    color: inherit;
+    text-decoration: none;
+    background-color: black;
+    padding: 25px 22px 24px 22px;
+  }
 
+  #first {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  #last {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .header .navbar .link a:hover {
+    color: lightgrey;
+  }
+
+  .landing-text-wrapper {
+    color: white;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .landing-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin-top: 135px;
+    border-radius: 10px;
+  }
+
+  .landing-text-container h1 {
+    text-shadow: 3px 4px black;
+  }
+
+  .landing-button {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .landing-button svg {
+    width: 85px;
+    height: auto;
+    fill: rgba(196,92,9, 0.9);
+    cursor: pointer;
+  }
 }
