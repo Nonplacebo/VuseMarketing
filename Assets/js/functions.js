@@ -1,8 +1,8 @@
-$(document).ready(function() {
+$(function() {
 
-  $(".landing-button").click(function() {
+  $("#land-button").click(function() {
     $('html,body').animate({
-        scrollTop: $(".about-page").offset().top},
+        scrollTop: $("#about-page").offset().top},
         'slow');
     });
 
