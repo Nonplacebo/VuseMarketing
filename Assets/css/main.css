@@ -47,11 +47,6 @@ body {
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 
-
-    #landing-page {
-      height: 100vh;
-    }
-
     #landing-page video {
       position: relative;
       width: 100%;
