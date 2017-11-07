@@ -9,6 +9,9 @@ body {
 }
 
 #landing-page {
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
 }
 
 #landing-page video {
@@ -115,13 +118,6 @@ body {
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-
-
-  #landing-page {
-    width: 100%;
-    overflow: hidden;
-    height: 100vh;
-  }
 
   #landing-page video {
     position: relative;
