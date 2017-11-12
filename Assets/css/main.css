@@ -12,17 +12,218 @@ body {
 /*Iphone screen*/
 @media only screen and (min-width : 320px) and (max-width: 575px) {
 
-  #landing-page video {
-    position: absolute !important;
-    top: -9999px !important;
-    left: -9999px !important;
-  }
+
+    #landing-page {
+      height: 100vh;
+      background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/910af87380017.560aa7db6b5fe.jpg");
+    }
+
+    #landing-page video {
+      position: absolute !important;
+      top: -9999px !important;
+      left: -9999px !important;
+    }
+
+
+      .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: ;
+        color: white;
+        width: 100%;
+        background: rgba(196,92,9, 0.75)
+      }
+
+      .header .logo-text {
+        padding-top: 30px;
+        align-self: center;
+
+      }
+
+      .header .logo-text svg {
+        width: 350px !important;
+      }
+
+      .header .navbar {
+        top: 0;
+        width: 100%;
+        margin-top: 20px;
+        background-color: rgba(44, 44, 44, 0.85);
+        padding: 20px 0 20px 0;
+      }
+
+      .header .navbar .link {
+      }
+
+      #first {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        margin: 0 0 0 12px;
+      }
+
+      #last {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin: 0 12px 0 0;
+      }
+
+      .header .navbar .link a {
+        align-content: space-between;
+        color: white;
+      }
+
+      .header .navbar .link a:hover {
+        text-decoration: none;
+        color: lightgrey;
+
+      }
+
+      .landing-text-wrapper {
+        color: white;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .landing-text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        margin-top: 135px;
+        border-radius: 10px;
+      }
+
+      .landing-text-container h1 {
+        text-shadow: 3px 4px black;
+        font-size: 1.8em;
+      }
+
+      .landing-button {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+      }
+
+      .landing-button svg {
+        width: 85px;
+        height: auto;
+        fill: rgba(196,92,9, 0.9);
+        cursor: pointer;
+      }
+
+
 
 }
 
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 576px) and (max-width: 767px) {
+
+  #landing-page {
+    height: 100vh;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/910af87380017.560aa7db6b5fe.jpg");
+  }
+
+  #landing-page video {
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
+  }
+
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    .header .logo-text {
+      padding-top: 50px;
+
+    }
+
+    .header .logo-text svg {
+      width: 350px !important;
+    }
+
+    .header .navbar {
+      margin-top: 50px;
+
+    }
+
+    .header .navbar .link {
+    }
+
+    #first {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+
+    #last {
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    .header .navbar .link a {
+      padding: 15px 32px 15px 32px;
+      color: inherit;
+      background-color: rgba(44, 44, 44, 0.85);
+    }
+
+    .header .navbar .link a:hover {
+      text-decoration: none;
+      background-color: rgba(196,92,9, 0.9);
+    }
+
+    .landing-text-wrapper {
+      color: white;
+      width: 100%;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .landing-text-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 5px;
+      margin-top: 135px;
+      border-radius: 10px;
+    }
+
+    .landing-text-container h1 {
+      text-shadow: 3px 4px black;
+    }
+
+    .landing-button {
+      width: 100%;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      bottom: 0;
+    }
+
+    .landing-button svg {
+      width: 85px;
+      height: auto;
+      fill: rgba(196,92,9, 0.9);
+      cursor: pointer;
+    }
+
 
 }
 
@@ -61,7 +262,7 @@ body {
     }
 
     .header .navbar .link a {
-      background-color: black;
+    background-color: rgba(44, 44, 44, 0.85);
       padding: 20px 17px 19px 17px;
       color: inherit;
     }
@@ -77,7 +278,7 @@ body {
     }
 
     .header .navbar .link a:hover {
-      background-color: grey;
+      background-color: rgba(196,92,9, 0.9);
       text-decoration: none;
     }
 
@@ -104,7 +305,7 @@ body {
 
     .landing-button {
       width: 100%;
-      height: 200px;
+      height: 400px;
       display: flex;
       justify-content: center;
       position: absolute;
@@ -168,7 +369,7 @@ body {
   .header .navbar .link a {
     color: inherit;
     text-decoration: none;
-    background-color: black;
+    background-color: rgba(44, 44, 44, 0.85);
     padding: 25px 22px 24px 22px;
   }
 
@@ -183,7 +384,7 @@ body {
   }
 
   .header .navbar .link a:hover {
-    background-color: grey;
+    background-color: rgba(196,92,9, 0.9);
   }
 
   .landing-text-wrapper {
@@ -276,7 +477,7 @@ body {
   .header .navbar .link a {
     color: inherit;
     text-decoration: none;
-    background-color: black;
+    background-color: rgba(44, 44, 44, 0.85);
     padding: 25px 22px 24px 22px;
   }
 
@@ -291,7 +492,7 @@ body {
   }
 
   .header .navbar .link a:hover {
-    background-color: grey;
+    background-color: rgba(196,92,9, 0.9);
   }
 
   .landing-text-wrapper {
