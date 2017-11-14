@@ -1,12 +1,33 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: lightgrey;
+  background-color: white;
 }
 
 #site-wrapper {
   width: 100%;
   overflow: hidden;
+}
+
+#about-page {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  background-color: white;
+  top: 695px;
+}
+
+#about-page .container .transparent-box h1 {
+  color: rgba(196,92,9, 1);
+}
+
+#about-page .container .transparent-box p {
+  color: rgba(80,80,80, 1);
+}
+
+#special-text {
+  color: rgba(196,92,9, 0.85);
+  font-style: italic;
 }
 
 /*Iphone screen*/
@@ -120,6 +141,42 @@ body {
       }
 
 
+      /*-------ABOUT PAGE-------*/
+
+      #about-page {
+
+      }
+
+      #about-page .container {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+      }
+
+      #about-page .container .transparent-box {
+        background-color: rgba(255,255,255,0.6);
+        margin-bottom: -80px;
+        padding: 0 15px 15px 15px;
+        border-radius: 7px;
+        z-index: 1;
+      }
+
+      #about-page .container .transparent-box h1 {
+
+      }
+
+      #about-page .container .transparent-box p {
+        text-indent: 35px;
+      }
+
+      #about-page .container img {
+        height: auto;
+        width: 450px;
+        align-self: center;
+      }
+
+
 
 }
 
@@ -224,6 +281,36 @@ body {
       cursor: pointer;
     }
 
+    /*-------ABOUT PAGE-------*/
+
+    #about-page {
+
+    }
+
+    #about-page .container {
+      padding-top: 50px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    #about-page .container .transparent-box {
+
+    }
+
+    #about-page .container .transparent-box h1 {
+
+    }
+
+    #about-page .container .transparent-box p {
+      text-indent: 35px;
+    }
+
+    #about-page .container img {
+      height: auto;
+      width: 600px;
+      align-self: center;
+    }
+
 
 }
 
@@ -319,12 +406,43 @@ body {
       cursor: pointer;
     }
 
+    /*-------ABOUT PAGE-------*/
+
+    #about-page {
+
+    }
+
+    #about-page .container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #about-page .container .transparent-box {
+
+    }
+
+    #about-page .container .transparent-box h1 {
+
+    }
+
+    #about-page .container .transparent-box p {
+      text-indent: 35px;
+    }
+
+    #about-page .container img {
+      height: auto;
+      width: 750px;
+      align-self: center;
+    }
+
 
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) and (max-width: 1199px) {
 
+  /*-------LANDING PAGE---------*/
+
   #landing-page video {
     position: absolute;
     width: 100%;
@@ -426,12 +544,53 @@ body {
     fill: rgba(196,92,9, 0.9);
     cursor: pointer;
   }
+
+  /*--------ABOUT PAGE---------*/
+
+  #about-page .container {
+    width: 80% !important;
+  }
+
+  #about-page img {
+    height: 400px;
+    width: auto;
+    position: relative;
+    margin-top: 120px;
+    float: right;
+  }
+
+  #about-page .container .transparent-box {
+    position: absolute;
+    display: inline-block;
+    width: 500px;
+    background-color: rgba(255,255,255,0.6);
+    margin-top: 120px;
+    z-index: 1;
+  }
+
+  #about-page .container .transparent-box h1 {
+  }
+
+  #about-page .container .transparent-box p {
+    margin-left: 50px;
+    padding-right: 50px;
+    text-indent: 35px;
+    font-size: 1.2em;
+  }
+
+  #special-text {
+    font-size: 1.2em;
+  }
+
+
 
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 
+  /*-----------LANDING PAGE-------------*/
+
   #landing-page video {
     position: absolute;
     width: 100%;
@@ -534,4 +693,45 @@ body {
     fill: rgba(196,92,9, 0.9);
     cursor: pointer;
   }
+
+  /*--------ABOUT PAGE---------*/
+
+  #about-page .container {
+    width: 80% !important;
+  }
+
+  #about-page img {
+    height: 400px;
+    width: auto;
+    position: relative;
+    margin-top: 120px;
+    float: right;
+  }
+
+  #about-page .container .transparent-box {
+    position: absolute;
+    display: inline-block;
+    width: 500px;
+    background-color: rgba(255,255,255,0.6);
+    margin-top: 120px;
+    z-index: 1;
+  }
+
+  #about-page .container .transparent-box h1 {
+
+  }
+
+  #about-page .container .transparent-box p {
+    margin-left: 50px;
+    padding-right: 50px;
+    text-indent: 35px;
+    font-size: 1.2em;
+  }
+
+  #special-text {
+    font-size: 1.2em;
+  }
+
+
+
 }
