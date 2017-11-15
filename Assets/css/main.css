@@ -30,6 +30,45 @@ body {
   font-style: italic;
 }
 
+#staff-showcase {
+  padding-top: 40px;
+  position: absolute;
+  top: 1380px;
+  background-color: rgba(230, 230, 230, 1);
+}
+
+#staff-showcase .container-fluid h1 {
+  display: block;
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
+
+#staff-showcase .container-fluid {
+}
+
+#staff-showcase .container-fluid .row {
+}
+
+#staff-showcase .container-fluid .row .thumbnail {
+  background: lightblue;
+}
+
+#staff-showcase .container-fluid .row .thumbnail img {
+}
+
+#staff-showcase .container-fluid .row .thumbnail a .caption {
+  text-align: center;
+  background: rgba(230, 230, 230, 1);
+  color: rgba(80,80,80, 1);
+}
+
+#staff-showcase .container-fluid .row .thumbnail a:hover {
+  text-decoration: none;
+}
+
+
+
 /*Iphone screen*/
 @media only screen and (min-width : 320px) and (max-width: 575px) {
 
@@ -535,7 +574,7 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    bottom: 0;
+    margin-top: 580px;
   }
 
   .landing-button svg {
@@ -684,7 +723,7 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    bottom: 0;
+    margin-top: 580px;
   }
 
   .landing-button svg {
@@ -732,6 +771,25 @@ body {
     font-size: 1.2em;
   }
 
+  /*-------STAFF SHOWCASE------*/
+
+  #staff-showcase {
+
+  }
+
+  #staff-showcase .container-fluid {
+
+  }
+
+  #staff-showcase .container-fluid .row {
+
+  }
+
+  #staff-showcase .container-fluid .row .thumbnail {
+  }
+
+  #staff-showcase .container-fluid .row .thumbnail img {
+  }
 
 
 }
