@@ -30,20 +30,35 @@ body {
 }
 
 #staff-showcase {
+  margin: 0 auto;
   padding-top: 40px;
   position: relative;
-  top: 1380px;
-  background-color: rgba(230, 230, 230, 1);
+  /*background-color: rgba(230, 230, 230, 1);*/
+}
+
+#staff-showcase h1 {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 30px;
 }
 
 .showcase {
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
 }
 
-button {
-  height: 20px;
+.showcase h3 {
+  padding-top: 6px;
+  text-align: center;
+}
+
+.slick-slide img {width: 100%;}
+
+#what-we-do {
+  background-color: rgba(55,55,55,0.6);
+}
+
+#what-we-do .container {
+
 }
 
 
@@ -194,6 +209,18 @@ button {
       }
 
 
+      #staff-showcase {
+        top: 530px;
+      }
+
+      #staff-showcase h1 {
+        font-size: 1.6em;
+      }
+
+      #staff-showcase h3 {
+        font-size: 0.7em;
+      }
+
 
 }
 
@@ -328,6 +355,18 @@ button {
       align-self: center;
     }
 
+    #staff-showcase {
+      top: 650px;
+    }
+
+    #staff-showcase h1 {
+      font-size: 1.8em;
+    }
+
+    #staff-showcase h3 {
+      font-size: 1em;
+    }
+
 
 }
 
@@ -452,6 +491,20 @@ button {
       align-self: center;
     }
 
+    #staff-showcase {
+      top: 1280px;
+      width: 92%;
+    }
+
+    #staff-showcase h1 {
+      font-size: 1.8em;
+    }
+
+    #staff-showcase h3 {
+      font-size: 1em;
+    }
+
+
 
 }
 
@@ -459,6 +512,7 @@ button {
 @media only screen and (min-width : 992px) and (max-width: 1199px) {
 
   /*-------LANDING PAGE---------*/
+
 
   #landing-page video {
     position: absolute;
@@ -525,8 +579,7 @@ button {
   .landing-text-wrapper {
     color: white;
     width: 100%;
-    height: 100vh;
-    position: absolute;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -538,7 +591,7 @@ button {
     justify-content: center;
     align-items: center;
     padding: 40px;
-    margin-top: 135px;
+    margin-top: 100px;
     border-radius: 10px;
   }
 
@@ -552,7 +605,7 @@ button {
     display: flex;
     justify-content: center;
     position: absolute;
-    margin-top: 580px;
+    margin-top: 40px;
   }
 
   .landing-button svg {
@@ -597,6 +650,11 @@ button {
 
   #special-text {
     font-size: 1.2em;
+  }
+
+  #staff-showcase {
+    top: 900px;
+    width: 92%;
   }
 
 
@@ -674,8 +732,8 @@ button {
   .landing-text-wrapper {
     color: white;
     width: 100%;
-    height: 100vh;
-    position: absolute;
+    height: ;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -701,7 +759,7 @@ button {
     display: flex;
     justify-content: center;
     position: absolute;
-    margin-top: 580px;
+    margin-top: 70px;
   }
 
   .landing-button svg {
@@ -752,7 +810,9 @@ button {
   /*-------STAFF SHOWCASE------*/
 
   #staff-showcase {
-
+    top: 900px;
+    width: 92%;
   }
+
 
 }
