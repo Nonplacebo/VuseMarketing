@@ -6,7 +6,6 @@ body {
 
 #site-wrapper {
   width: 100%;
-  overflow: hidden;
 }
 
 #about-page {
@@ -32,41 +31,20 @@ body {
 
 #staff-showcase {
   padding-top: 40px;
-  position: absolute;
+  position: relative;
   top: 1380px;
   background-color: rgba(230, 230, 230, 1);
 }
 
-#staff-showcase .container-fluid h1 {
-  display: block;
-  text-align: center;
-  text-decoration: underline;
-  padding-bottom: 20px;
+.showcase {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
 }
 
-#staff-showcase .container-fluid {
+button {
+  height: 20px;
 }
-
-#staff-showcase .container-fluid .row {
-}
-
-#staff-showcase .container-fluid .row .thumbnail {
-  background: lightblue;
-}
-
-#staff-showcase .container-fluid .row .thumbnail img {
-}
-
-#staff-showcase .container-fluid .row .thumbnail a .caption {
-  text-align: center;
-  background: rgba(230, 230, 230, 1);
-  color: rgba(80,80,80, 1);
-}
-
-#staff-showcase .container-fluid .row .thumbnail a:hover {
-  text-decoration: none;
-}
-
 
 
 /*Iphone screen*/
@@ -776,20 +754,5 @@ body {
   #staff-showcase {
 
   }
-
-  #staff-showcase .container-fluid {
-
-  }
-
-  #staff-showcase .container-fluid .row {
-
-  }
-
-  #staff-showcase .container-fluid .row .thumbnail {
-  }
-
-  #staff-showcase .container-fluid .row .thumbnail img {
-  }
-
 
 }

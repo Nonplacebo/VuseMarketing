@@ -42,13 +42,13 @@
                 adaptiveHeight: false,
                 appendArrows: $(element),
                 appendDots: $(element),
-                arrows: true,
+                arrows: false,
                 asNavFor: null,
-                prevArrow: '<button class="slick-prev" aria-label="Previous" type="button">Previous</button>',
-                nextArrow: '<button class="slick-next" aria-label="Next" type="button">Next</button>',
+                prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"></button>',
+                nextArrow: '<button class="slick-next" aria-label="Next" type="button"></button>',
                 autoplay: false,
                 autoplaySpeed: 3000,
-                centerMode: false,
+                centerMode: true,
                 centerPadding: '50px',
                 cssEase: 'ease',
                 customPaging: function(slider, i) {
@@ -1697,7 +1697,7 @@
 
             if (_.options.accessibility === true) {
                 _.initADA();
-                
+
                 if (_.options.focusOnChange) {
                     var $currentSlide = $(_.$slides.get(_.currentSlide));
                     $currentSlide.attr('tabindex', 0).focus();
