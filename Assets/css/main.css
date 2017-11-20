@@ -13,7 +13,6 @@ body {
   height: auto;
   position: absolute;
   background-color: white;
-  top: 695px;
 }
 
 #about-page .container .transparent-box h1 {
@@ -54,13 +53,125 @@ body {
 .slick-slide img {width: 100%;}
 
 #what-we-do {
-  background-color: rgba(55,55,55,0.6);
+  background-color: rgba(55,55,55,0.1);
+  position: relative;
 }
 
 #what-we-do .container {
+  margin: 0 auto !important;
+}
+
+#what-we-do .container h1 {
+  color: rgba(196,92,9, 1);
 
 }
 
+#what-we-do .container .box {
+  text-align: center;
+  color: inherit;
+
+}
+
+#what-we-do .container .box:hover {
+  text-decoration: none;
+  color: inherit;
+  background-color: white;
+}
+
+#what-we-do .container .box h2 {
+  text-decoration: underline;
+}
+
+#what-we-do .container .box p {
+
+}
+
+#what-we-do .container .box img {
+
+}
+
+.circle {
+
+}
+
+#our-work {
+  background-color: white;
+  position: relative;
+}
+
+#our-work .container {
+  margin: 0 auto !important;
+}
+
+#our-work .container h1 {
+  color: rgba(196,92,9, 1);
+
+}
+
+#our-work .container .box {
+  text-align: center;
+  color: inherit;
+
+}
+
+#our-work .container .box:hover {
+  text-decoration: none;
+  color: inherit;
+  background-color: rgba(55,55,55,0.1);
+}
+
+#contact {
+  background-color: rgba(55,55,55,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+
+#contact h1 {
+  color: rgba(196,92,9, 1);
+}
+
+#contact .icon-text {
+  display: block;
+
+}
+
+#contact .icon-text img {
+  display: inline-block;
+}
+#contact .icon-text h1 {
+  display: inline-block;
+}
+
+#contact .social {
+  display: block;
+  padding-bottom: 50px;
+}
+
+#contact .social img {
+  display: inline-block;
+}
+
+.footer {
+  background-color: rgba(55,55,55,0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+
+.footer .footer-text p {
+  margin: 0;
+  padding: 0;
+}
+
+.footer img {
+
+}
 
 /*Iphone screen*/
 @media only screen and (min-width : 320px) and (max-width: 575px) {
@@ -76,6 +187,7 @@ body {
       top: -9999px !important;
       left: -9999px !important;
     }
+
 
 
       .header {
@@ -147,13 +259,14 @@ body {
         justify-content: center;
         align-items: center;
         padding: 5px;
-        margin-top: 135px;
+        margin-top: 102px;
         border-radius: 10px;
       }
 
       .landing-text-container h1 {
         text-shadow: 3px 4px black;
         font-size: 1.8em;
+        text-align: center;
       }
 
       .landing-button {
@@ -176,7 +289,7 @@ body {
       /*-------ABOUT PAGE-------*/
 
       #about-page {
-
+        top: 660px;
       }
 
       #about-page .container {
@@ -210,7 +323,7 @@ body {
 
 
       #staff-showcase {
-        top: 530px;
+        top: 600px;
       }
 
       #staff-showcase h1 {
@@ -220,6 +333,168 @@ body {
       #staff-showcase h3 {
         font-size: 0.7em;
       }
+
+      #what-we-do {
+        top: 625px;
+        padding-bottom: 40px;
+      }
+
+      #what-we-do .container h1 {
+        color: rgba(196,92,9, 1);
+        padding-top: 40px;
+        margin-bottom: 30px;
+      }
+
+      #what-we-do .container .box {
+        text-align: center;
+        color: inherit;
+        padding: 15px 0 15px 0;
+        border-radius: 10px;
+        margin-top: 10px;
+      }
+
+      #what-we-do .container .box:hover {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      #what-we-do .container .box h2 {
+        text-decoration: underline;
+      }
+
+      #what-we-do .container .box p {
+        margin-top: 20px;
+        font-size: 1.2em;
+        padding-right: 5px;
+        padding-left: 5px;
+      }
+
+      #what-we-do .container .box img {
+        height: 150px;
+      }
+
+      .circle {
+        border-radius: 50%;
+        height: 285px;
+        width: 285px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 32px;
+      }
+
+
+      #our-work {
+        top: 700px;
+        padding-bottom: 40px;
+      }
+
+      #our-work .container h1 {
+        color: rgba(196,92,9, 1);
+        padding-top: 40px;
+        margin-bottom: 30px;
+      }
+
+      #our-work .container .box {
+        text-align: center;
+        color: inherit;
+        padding: 15px 0 15px 0;
+        border-radius: 10px;
+        margin-top: 10px;
+      }
+
+      #our-work .container .box:hover {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      #our-work .container .box h2 {
+        text-decoration: none;
+        padding-top: 10px;
+      }
+
+      #our-work .container .box p {
+        margin-top: 20px;
+        font-size: 1.2em;
+        padding-right: 5px;
+        padding-left: 5px;
+      }
+
+      #our-work .container .box img {
+        height: 200px;
+      }
+
+      .square {
+        height: 285px;
+        width: 285px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 32px;
+      }
+
+      #fourseason {
+        height: 80px !important;
+      }
+
+      #contact {
+        top: 760px;
+        padding-top: 70px;
+      }
+
+      #contact h1 {
+
+      }
+
+      #contact .icon-text {
+      }
+
+      #contact .icon-text img {
+        height: 50px;
+        width: 50px;
+      }
+      #contact .icon-text h1 {
+        font-size: 1.4em;
+      }
+
+      #contact .social {
+        margin-top: 40px;
+      }
+
+      #contact .social img {
+        height: 50px;
+        width: 50px;
+        margin: 0 20px 0 20px;
+      }
+
+      .footer {
+
+      }
+
+      .footer .footer-text {
+        display: none;
+      }
+
+      .footer .footer-text p {
+        font-size: 0.8em;
+      }
+
+      .footer img {
+        height: 200px;
+      }
+
+      .footer .footer-text:first-of-type {
+        margin-right: 10px;
+      }
+
+      .footer .footer-text:last-of-type {
+        margin-left: 10px;
+      }
+
+
+
 
 
 }
@@ -328,7 +603,7 @@ body {
     /*-------ABOUT PAGE-------*/
 
     #about-page {
-
+      top: 695px;
     }
 
     #about-page .container {
@@ -366,6 +641,166 @@ body {
     #staff-showcase h3 {
       font-size: 1em;
     }
+
+
+      #what-we-do {
+        top: 750px;
+        padding-bottom: 45px;
+      }
+
+      #what-we-do .container h1 {
+        color: rgba(196,92,9, 1);
+        padding-top: 40px;
+        margin-bottom: 30px;
+      }
+
+      #what-we-do .container .box {
+        text-align: center;
+        color: inherit;
+        padding: 15px 0 15px 0;
+        border-radius: 10px;
+        margin-top: 10px;
+      }
+
+      #what-we-do .container .box:hover {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      #what-we-do .container .box h2 {
+        text-decoration: underline;
+      }
+
+      #what-we-do .container .box p {
+        margin-top: 20px;
+        font-size: 1.2em;
+        padding-right: 5px;
+        padding-left: 5px;
+      }
+
+      #what-we-do .container .box img {
+        height: 150px;
+      }
+
+      .circle {
+        border-radius: 50%;
+        height: 285px;
+        width: 285px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 32px;
+      }
+
+      #our-work {
+        top: 800px;
+      }
+
+      #our-work .container h1 {
+        color: rgba(196,92,9, 1);
+        padding-top: 40px;
+        margin-bottom: 30px;
+      }
+
+      #our-work .container .box {
+        text-align: center;
+        color: inherit;
+        padding: 15px 0 15px 0;
+        border-radius: 10px;
+        margin-top: 10px;
+      }
+
+      #our-work .container .box:hover {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      #our-work .container .box h2 {
+        text-decoration: none;
+        padding-top: 10px;
+      }
+
+      #our-work .container .box p {
+        margin-top: 20px;
+        font-size: 1.2em;
+        padding-right: 5px;
+        padding-left: 5px;
+      }
+
+      #our-work .container .box img {
+        height: 200px;
+      }
+
+      .square {
+        height: 285px;
+        width: 285px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 32px;
+      }
+
+      #fourseason {
+        height: 70px !important;
+      }
+
+      #contact {
+        top: 860px;
+        padding-top: 70px;
+      }
+
+      #contact h1 {
+
+      }
+
+      #contact .icon-text {
+      }
+
+      #contact .icon-text img {
+        height: 50px;
+        width: 50px;
+      }
+      #contact .icon-text h1 {
+        font-size: 1.4em;
+      }
+
+      #contact .social {
+        margin-top: 40px;
+      }
+
+      #contact .social img {
+        height: 50px;
+        width: 50px;
+        margin: 0 20px 0 20px;
+      }
+
+      .footer {
+
+      }
+
+      .footer .footer-text {
+
+      }
+
+      .footer .footer-text p {
+        font-size: 0.8em;
+      }
+
+      .footer img {
+        height: 200px;
+      }
+
+      .footer .footer-text:first-of-type {
+        margin-right: 10px;
+      }
+
+      .footer .footer-text:last-of-type {
+        margin-left: 10px;
+      }
+
+
 
 
 }
@@ -452,7 +887,7 @@ body {
       display: flex;
       justify-content: center;
       position: absolute;
-      bottom: 0;
+      padding-top: 80px;
     }
 
     .landing-button svg {
@@ -465,7 +900,7 @@ body {
     /*-------ABOUT PAGE-------*/
 
     #about-page {
-
+      top: 600px;
     }
 
     #about-page .container {
@@ -492,7 +927,7 @@ body {
     }
 
     #staff-showcase {
-      top: 1280px;
+      top: 1170px;
       width: 92%;
     }
 
@@ -503,6 +938,215 @@ body {
     #staff-showcase h3 {
       font-size: 1em;
     }
+
+    #what-we-do {
+      top: 1370px;
+    }
+
+    #what-we-do .container h1 {
+      color: rgba(196,92,9, 1);
+      padding-top: 40px;
+      margin-bottom: 30px;
+    }
+
+    #what-we-do .container .box {
+      text-align: center;
+      color: inherit;
+      padding: 15px 0 15px 0;
+      border-radius: 10px;
+    }
+
+    #what-we-do .container .box:hover {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    #what-we-do .container .box h2 {
+      text-decoration: underline;
+    }
+
+    #what-we-do .container .box p {
+      margin-top: 20px;
+      font-size: 1.2em;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    #what-we-do .container .box img {
+
+    }
+
+    .circle {
+      border-radius: 50%;
+      height: 285px;
+      width: 285px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      margin-top: 32px;
+    }
+
+    #what-we-do {
+      top: 1235px;
+      padding-bottom: 30px;
+    }
+
+    #what-we-do .container h1 {
+      color: rgba(196,92,9, 1);
+      padding-top: 40px;
+      margin-bottom: 30px;
+    }
+
+    #what-we-do .container .box {
+      text-align: center;
+      color: inherit;
+      padding: 15px 0 15px 0;
+      border-radius: 10px;
+      margin-top: 40px;
+    }
+
+    #what-we-do .container .box:hover {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    #what-we-do .container .box h2 {
+      text-decoration: underline;
+      font-size: 1.6em;
+    }
+
+    #what-we-do .container .box p {
+      margin-top: 20px;
+      font-size: 1.2em;
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+
+    #what-we-do .container .box img {
+      height: 100px;
+    }
+
+    .circle {
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      margin-top: 32px;
+    }
+
+    #our-work {
+      top: 1285px;
+      padding-bottom: 30px;
+    }
+
+    #our-work .container h1 {
+      color: rgba(196,92,9, 1);
+      padding-top: 25px;
+      margin-bottom: 30px;
+    }
+
+    #our-work .container .box {
+      text-align: center;
+      color: inherit;
+      padding: 15px 0 15px 0;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    #our-work .container .box:hover {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    #our-work .container .box h2 {
+      text-decoration: none;
+      font-size: 1.6em;
+      padding-top: 6px;
+    }
+
+    #our-work .container .box p {
+      margin-top: 20px;
+      font-size: 1.2em;
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+
+    #our-work .container .box img {
+      height: 100px;
+    }
+
+    .square {
+      height: 200px;
+      width: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      margin-top: 32px;
+    }
+
+    #fourseason {
+      height: 60px !important;
+    }
+
+    #contact {
+      top: 1300px;
+      padding-top: 70px;
+    }
+
+    #contact h1 {
+      font-size: 1.6em;
+
+    }
+
+    #contact .icon-text {
+    }
+
+    #contact .icon-text img {
+      height: 50px;
+      width: 50px;
+    }
+    #contact .icon-text h1 {
+
+    }
+
+    #contact .social {
+      margin-top: 40px;
+    }
+
+    #contact .social img {
+      height: 50px;
+      width: 50px;
+      margin: 0 20px 0 20px;
+    }
+
+    .footer {
+
+    }
+
+    .footer .footer-text {
+
+    }
+
+    .footer .footer-text p {
+    }
+
+    .footer img {
+      height: 250px;
+    }
+
+    .footer .footer-text:first-of-type {
+      margin-right: 50px;
+    }
+
+    .footer .footer-text:last-of-type {
+      margin-left: 50px;
+    }
+
 
 
 
@@ -617,6 +1261,10 @@ body {
 
   /*--------ABOUT PAGE---------*/
 
+  #about-page {
+    top: 695px;
+  }
+
   #about-page .container {
     width: 80% !important;
   }
@@ -653,8 +1301,164 @@ body {
   }
 
   #staff-showcase {
-    top: 900px;
+    top: 840px;
     width: 92%;
+  }
+
+  #what-we-do {
+    top: 990px;
+  }
+
+  #what-we-do .container h1 {
+    color: rgba(196,92,9, 1);
+    padding-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  #what-we-do .container .box {
+    text-align: center;
+    color: inherit;
+    padding: 15px 0 15px 0;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+
+  #what-we-do .container .box:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  #what-we-do .container .box h2 {
+    text-decoration: underline;
+  }
+
+  #what-we-do .container .box p {
+    margin-top: 20px;
+    font-size: 1.2em;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  #what-we-do .container .box img {
+    height: 150px;
+  }
+
+  .circle {
+    border-radius: 50%;
+    height: 285px;
+    width: 285px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 32px;
+  }
+
+  #our-work {
+    top: 1000px;
+    padding-bottom: 65px;
+  }
+
+  #our-work .container h1 {
+    color: rgba(196,92,9, 1);
+    padding-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  #our-work .container .box {
+    text-align: center;
+    color: inherit;
+    padding: 15px 0 15px 0;
+    border-radius: 10px;
+  }
+
+  #our-work .container .box:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  #our-work .container .box h2 {
+    text-decoration: none;
+    padding-top: 10px;
+  }
+
+  #our-work .container .box p {
+    margin-top: 20px;
+    font-size: 1.2em;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #our-work .container .box img {
+    height: 260px;
+  }
+
+  #fourseason {
+    height: 90px !important;
+  }
+
+  .square {
+    height: 285px;
+    width: 285px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 32px;
+  }
+
+
+  #contact {
+    top: 1000px;
+    padding-top: 70px;
+  }
+
+  #contact h1 {
+
+  }
+
+  #contact .icon-text {
+  }
+
+  #contact .icon-text img {
+    height: 100px;
+    width: 100px;
+  }
+  #contact .icon-text h1 {
+
+  }
+
+  #contact .social {
+    margin-top: 40px;
+  }
+
+  #contact .social img {
+    height: 100px;
+    width: 100px;
+    margin: 0 20px 0 20px;
+  }
+
+  .footer {
+
+  }
+
+  .footer .footer-text {
+
+  }
+
+  .footer .footer-text p {
+  }
+
+  .footer img {
+    height: 250px;
+  }
+
+  .footer .footer-text:first-of-type {
+    margin-right: 100px;
+  }
+
+  .footer .footer-text:last-of-type {
+    margin-left: 100px;
   }
 
 
@@ -771,6 +1575,10 @@ body {
 
   /*--------ABOUT PAGE---------*/
 
+  #about-page {
+    top: 695px;
+  }
+
   #about-page .container {
     width: 80% !important;
   }
@@ -810,8 +1618,168 @@ body {
   /*-------STAFF SHOWCASE------*/
 
   #staff-showcase {
-    top: 900px;
+    top: 840px;
     width: 92%;
+  }
+
+  #what-we-do {
+    top: 960px;
+    padding-bottom: 65px;
+  }
+
+  #what-we-do .container h1 {
+    color: rgba(196,92,9, 1);
+    padding-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  #what-we-do .container .box {
+    text-align: center;
+    color: inherit;
+    padding: 15px 0 15px 0;
+    border-radius: 10px;
+  }
+
+  #what-we-do .container .box:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  #what-we-do .container .box h2 {
+    text-decoration: underline;
+  }
+
+  #what-we-do .container .box p {
+    margin-top: 20px;
+    font-size: 1.2em;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #what-we-do .container .box img {
+    height: 150px;
+  }
+
+  .circle {
+    border-radius: 50%;
+    height: 285px;
+    width: 285px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 32px;
+  }
+
+  #our-work {
+    top: 1000px;
+    padding-bottom: 65px;
+  }
+
+  #our-work .container h1 {
+    color: rgba(196,92,9, 1);
+    padding-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  #our-work .container .box {
+    text-align: center;
+    color: inherit;
+    padding: 15px 0 15px 0;
+    border-radius: 10px;
+  }
+
+  #our-work .container .box:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  #our-work .container .box h2 {
+    text-decoration: none;
+    padding-top: 10px;
+  }
+
+  #our-work .container .box p {
+    margin-top: 20px;
+    font-size: 1.2em;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #our-work .container .box img {
+    height: 260px;
+  }
+
+  #fourseason {
+    height: 90px !important;
+  }
+
+  .square {
+    height: 285px;
+    width: 285px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 32px;
+  }
+
+  #contact {
+    top: 1000px;
+    padding-top: 70px;
+  }
+
+  #contact h1 {
+
+  }
+
+  #contact a .icon-text {
+    border-radius: 5px;
+    padding: 15px 10px 15px 10px;
+  }
+
+  #contact a .icon-text:hover {
+  }
+
+  #contact .icon-text img {
+    height: 100px;
+    width: 100px;
+  }
+  #contact .icon-text h1 {
+
+  }
+
+  #contact .social {
+    margin-top: 40px;
+  }
+
+  #contact .social img {
+    height: 100px;
+    width: 100px;
+    margin: 0 20px 0 20px;
+  }
+
+  .footer {
+
+  }
+
+  .footer .footer-text {
+
+  }
+
+  .footer .footer-text p {
+  }
+
+  .footer img {
+    height: 250px;
+  }
+
+  .footer .footer-text:first-of-type {
+    margin-right: 150px;
+  }
+
+  .footer .footer-text:last-of-type {
+    margin-left: 150px;
   }
 
 
