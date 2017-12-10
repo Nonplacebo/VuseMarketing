@@ -6,6 +6,43 @@ $(function() {
         'slow');
     });
 
+    $(window).scroll(function () {
+    //if you hard code, then use console
+    //.log to determine when you want the
+    //nav bar to stick.
+    console.log($(window).scrollTop())
+  if ($(window).scrollTop() > 690) {
+    $('#nav_bar').addClass('navbar-fixed');
+  }
+  if ($(window).scrollTop() < 691) {
+    $('#nav_bar').removeClass('navbar-fixed');
+  }
+});
+
+
+
+
+
+      $("#first").click(function() {
+        $('html,body').animate({
+            scrollTop: $("#about-page").offset().top},
+            'slow');
+        });
+
+
+        $("#third").click(function() {
+          $('html,body').animate({
+              scrollTop: $("#our-work").offset().top},
+              'slow');
+          });
+
+        $("#last").click(function() {
+          $('html,body').animate({
+              scrollTop: $("#contact").offset().top},
+              'slow');
+          });
+
+
 
 
     //$('.showcase').slick({
